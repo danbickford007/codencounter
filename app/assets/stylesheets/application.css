@@ -23,7 +23,21 @@ a:link {
 
 #container{
   margin:0 auto;
-  left:200px;
+  left:20px;
   position:relative;
-  top:100px;
+  top:50px;
+  width:90%;
+}
+
+footer{
+  top:600px;
+  position:relative;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
 }

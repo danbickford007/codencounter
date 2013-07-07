@@ -19,13 +19,17 @@
 
   %body
     %div#container
+      %div
+        =image_tag 'alien_head.png', :height=>'100px', :width=>'100px'
+        %b Code Encounter LLC.  Your encounter with the best software in the universe!
+        %hr
       .tabbable.tabs-left
         %ul.nav.nav-tabs
-          %li= link_to "Link 1", "/path1"
-          %li= link_to "Link 2", "/path2"
-          %li= link_to "Link 3", "/path3"
+          %li= link_to "Our Process", "/path1"
+          %li= link_to "About Us", "/path2"
+          %li= link_to "Contact Us", "/path3"
         %div.tab-content
-          .span9
+          .span12
             = bootstrap_flash
             = yield
         

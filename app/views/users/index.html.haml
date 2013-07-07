@@ -1,21 +1,17 @@
-%h1 Listing users
-
-%table
-  %tr
-    %th Email
-    %th Passcode
-    %th
-    %th
-    %th
-
-  - @users.each do |user|
-    %tr
-      %td= user.email
-      %td= user.passcode
-      %td= link_to 'Show', user
-      %td= link_to 'Edit', edit_user_path(user)
-      %td= link_to 'Destroy', user, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
-%br
-
-= link_to 'New User', new_user_path
+%h4
+  Encounter the best software in the universe
+%div.left
+  %h5 Technologies
+  %ul
+    %li Ruby On Rails
+    %li JQuery
+    %li HAML
+    %li CoffeeScript
+    %li Node.js
+    %li Linux Servers
+    %li Mysql and Sqlite3
+%div.right.span8
+  %h5 Mission Statement
+  %p
+    We Strive to provide our clients with the best software out there.  Our passion for clean, reuseable software is unmatched in the industry.  All of our code is 
+    tested and proven to be not only maintainable but graceful.  
