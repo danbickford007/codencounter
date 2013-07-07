@@ -11,3 +11,19 @@
  *= require_self
  *= require_tree .
  */
+
+html body {
+  background-image: url('bo_play_pattern.png');
+  color:white;
+}
+
+a:link {
+  color:white;
+}
+
+#container{
+  margin:0 auto;
+  left:200px;
+  position:relative;
+  top:100px;
+}
